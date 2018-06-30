@@ -1,0 +1,27 @@
+{
+  "name": "@dbrowser/internal-tracker",
+  "version": "0.1.1",
+  "description": "dBrowser Internal Analytics Tracking Repository.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Bench Computer, Inc. <legal@benchx.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -s tests.js"
+  },
+  "dependencies": {
+    "express-useragent": "^1.0.7",
+    "lodash.zipobject": "^4.1.3",
+    "monotonic-timestamp-base36": "^1.0.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "tempy": "^0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
